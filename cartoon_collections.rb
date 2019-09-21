@@ -10,6 +10,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.reduce([]) {|memo, call| memo << call if call.length > 4}
+  memo
 end
 
 def find_the_cheese# code an argument here
