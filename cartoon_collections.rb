@@ -1,7 +1,7 @@
 dwarves = ["grumpy", "sappy", "dorky"]
 
 def roll_call_dwarves(dwarves)
-  dwarves.map {|dwarf| p "#{dwarves.index(dwarf)}. #{dwarf}"}
+  dwarves.map {|dwarf| p "#{dwarves.index(dwarf)}.#{dwarf}"}
 end
 
 puts roll_call_dwarves(dwarves)
