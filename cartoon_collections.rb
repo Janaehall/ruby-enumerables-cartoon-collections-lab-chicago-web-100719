@@ -1,13 +1,10 @@
-dwarves = ["grumpy", "sappy", "dorky"]
-
 def roll_call_dwarves(dwarves)
   dwarves.map {|dwarf| p "#{dwarves.index(dwarf)+1}.#{dwarf}"}
 end
 
-puts roll_call_dwarves(dwarves)
-
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(summon)
+  new_array
+  summon.map {|item| new_array << item.upcase + "!"}
 end
 
 def long_planeteer_calls# code an argument here
