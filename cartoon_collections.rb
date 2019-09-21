@@ -4,7 +4,7 @@ end
 array = ["hello", "my", "name", "is", "janae"]
 def summon_captain_planet(summon)
   new_array = []
-  summon.map {|item| new_array << item.upcase + "!"}
+  summon.map {|item| new_array << item.capitalize + "!"}
   new_array
 end
 
